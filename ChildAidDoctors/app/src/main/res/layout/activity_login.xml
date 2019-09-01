@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+
+            android:textStyle="bold"
+            android:textSize="40dp"
+
+            android:text="Login" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_below="@+id/textView3"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="50dp"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp">
+
+                <EditText
+                    android:id="@+id/pMonthInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawableLeft="@drawable/person"
+                    android:drawablePadding="30dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:padding="10dp" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/pMonthInput"
+                    android:background="#000" />
+
+                <EditText
+                    android:id="@+id/pYearInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_margin="10dp"
+                    android:drawableLeft="@drawable/lock"
+                    android:drawablePadding="10dp"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/cv"
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/login_button"/>
+
+        <TextView
+            android:layout_below="@id/loginBtn"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            />
+    </RelativeLayout>
+
+</ScrollView>

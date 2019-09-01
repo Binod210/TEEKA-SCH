@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684423654076",
+    "firebase_url": "https://childaid-4dfd6.firebaseio.com",
+    "project_id": "childaid-4dfd6",
+    "storage_bucket": "childaid-4dfd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684423654076:android:8da7a66d96971c30",
+        "android_client_info": {
+          "package_name": "com.lazycoderz.childaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684423654076-m88cniha6a2kg5i9lnijk9c7rrcfmmqd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lazycoderz.childaid",
+            "certificate_hash": "2e96da74e2dd0f532c946379264eb823075e6e3d"
+          }
+        },
+        {
+          "client_id": "684423654076-mst6qpnkk6pui58qc49h4i3nkmrepmoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKEISX4OPELxervnvpaqJcdhLd0B4oqVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684423654076-mst6qpnkk6pui58qc49h4i3nkmrepmoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

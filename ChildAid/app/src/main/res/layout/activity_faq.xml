@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".FAQActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_above="@+id/contentdata"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="FAQ(s)"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/contentdata"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:textSize="14dp"
+            android:text="What is immunization and how does it work ?
+Immunization is a way of protecting the human body against infectious diseases through vaccination.
+Immunisation prepares our bodies to fight against diseases in case we come into contact with them in the
+future.
+Babies are born with some natural immunity which they get from their mother and through breastfeeding.
+This gradually wears off as the baby&#39;s own immune system starts to develop. Having your child
+immunized gives extra protection against illnesses which can kill.
+How do we know that vaccines are safe?
+Vaccines like all other medicines undergo extensive and rigorous tests regarding their safety. Only after
+they have been found to be safe that they are introduced for general vaccination programs. Each vaccine is continually checked even after it has been introduced and action is taken if it is needed. If a vaccine is not safe it is not used.
+Why give BCG vaccine only on the left upper arm?
+BCG is given on the left upper arm to maintain uniformity and for helping surveyors in verifying the receipt
+of the vaccine.
+\
+Till what age can a child be given OPV  (Oral poliovirus vaccine) ?
+OPV can be given to children till 5 years of age.
+Can OPV (Oral poliovirus vaccine )and vitamin A be given together with DPT Booster dose?
+Yes.
+Can an infant be breastfed immediately after OPV?
+Yes.
+If a child could not receive DPT 1, 2, 3 and OPV 1, 2, 3 according to the schedule, till what age can
+the vaccine be given?
+The DPT vaccine can be given until 2 years of age and OPV can be given till 5 years of age. If a child has
+received previous doses but not completed the schedule, do not restart the schedule and instead
+administer the remaining doses needed to complete the series.
+If a child comes between the ages of 2 to 5 years without having received any vaccine, what
+vaccines should be given?
+If the child comes between 2 to 5 years without any vaccination, two doses of DT can be given with OPV
+with a minimum gap of 4 weeks (or one month). A single dose of measles vaccine also needs to be given
+with first dose of DT.
+Why should there be a minimum gap of 4 weeks between two doses of DPT?
+This is because decreasing the interval between two doses may interfere with the antibody response and
+protection.
+Why give the DPT vaccine in the antero-lateral mid thigh and not the gluteal region (buttocks)?
+DPT is given in the antero-lateral mid-thigh and not the gluteal region to prevent damage to the sciatic
+nerve. Moreover, the vaccine deposited in the fat of gluteal region does not invoke the appropriate
+immune response.
+What should one do if the child is found allergic to DPT or develops encephalopathy after DPT?
+A child who is allergic to DPT or develops encephalopathy after DPT should be given the DT vaccine
+instead of DPT for the remaining doses, as it is usually the P (whole cell Pertussis) component of the
+vaccine which causes the allergy/encephalopathy.
+If a girl received all doses of DPT, DT and TT as per the NIS till 16 years of age and she gets
+pregnant at 18 years, should she get one dose of TT during pregnancy?
+Give 2 doses of TT during the pregnancy as per the schedule.
+Can Hepatitis B vaccine be mixed in the same syringe with DPT and given as one injection?
+No, DPT and Hepatitis B vaccine (if supplied separately) cannot be mixed or administered through the
+same syringe.
+
+
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</ScrollView>

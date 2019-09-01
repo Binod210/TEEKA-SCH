@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleActivity">
+    <TextView
+        android:id="@+id/nametext"
+        android:text="Name"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/doseTxt"
+        android:layout_toRightOf="@id/nametext"
+        android:layout_width="50dp"
+        android:text="Dose"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@id/doseTxt"
+        android:id="@+id/descTxt"
+        android:text="Desc"
+        android:layout_width="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/timetxt"
+        android:text="Time"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/descTxt"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/nametext"
+        android:id="@+id/listdata"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

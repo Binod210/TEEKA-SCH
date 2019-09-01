@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/VaccineName"
+        android:text="Name"
+        android:textStyle="bold"
+        android:layout_width="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@id/VaccineName"
+        android:id="@+id/VaccineDose"
+        android:text="Dose"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="50dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@+id/VaccineDose"
+        android:id="@+id/VaccineDesc"
+        android:layout_marginLeft="10dp"
+        android:text="Desc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_toRightOf="@id/VaccineDesc"
+        android:id="@+id/vaccineTime"
+        android:text="Time"
+        android:layout_width="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

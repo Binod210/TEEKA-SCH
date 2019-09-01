@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".UpdateActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:text="Choose Delivery Date" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_below="@+id/textView3"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp">
+
+                <EditText
+                    android:id="@+id/pMonthInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="30dp"
+                    android:inputType="number"
+                    android:hint="Date"
+                    android:padding="10dp" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/pMonthInput"
+                    android:background="#000" />
+
+                <EditText
+                    android:id="@+id/pYearInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Hospital" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/SubmitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:text="         Submit       " />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_below="@id/SubmitBtn"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:text="Choose Vaccination Date" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv2"
+            android:layout_below="@+id/textView4"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            app:cardCornerRadius="70dp"
+            app:cardElevation="3dp"
+            android:layout_marginLeft="-60dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="20dp">
+
+                <EditText
+                    android:id="@+id/pMonthInput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="30dp"
+                    android:inputType="number"
+                    android:hint="Date"
+                    android:padding="10dp" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@id/pMonthInput1"
+                    android:background="#000" />
+
+                <EditText
+                    android:id="@+id/pYearInput1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="10dp"
+                    android:hint="Place" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/SubmitBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/green"
+            android:text="         Submit       " />
+
+    </RelativeLayout>
+
+
+</ScrollView>

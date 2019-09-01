@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Child Aid</string>
+    <string-array name="BloodGroup">
+        <item>Choose Blood Group</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Choose Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+
+
+</resources>

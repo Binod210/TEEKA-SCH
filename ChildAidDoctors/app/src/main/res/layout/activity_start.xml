@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fp"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/destext"
+        android:layout_marginBottom="20dp"
+        android:text="Child Aid"/>
+    <TextView
+        android:id="@+id/destext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/loginBtn"
+        android:text="Immunizing the Child Health"
+        android:layout_marginBottom="40dp"/>
+
+    <ImageView
+        android:id="@+id/loginBtn"
+        android:src="@drawable/login_button"
+        android:layout_above="@+id/regBtn"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+    <ImageView
+        android:id="@+id/regBtn"
+        android:src="@drawable/register_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp" />
+
+</RelativeLayout>
